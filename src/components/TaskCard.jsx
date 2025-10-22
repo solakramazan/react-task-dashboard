@@ -1,6 +1,7 @@
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
-import { IoTrash, IoClock } from 'react-icons/io5';
+import { MdDelete } from 'react-icons/md';
+import { AiOutlineClockCircle } from 'react-icons/ai';
 
 function TaskCard({ task, onDelete }) {
   const {
@@ -62,7 +63,7 @@ function TaskCard({ task, onDelete }) {
 
         <div className="flex items-center gap-2">
           <div className={`flex items-center gap-1 text-xs ${isOverdue ? 'text-red-400' : 'text-gray-400'}`}>
-            <IoClock size={14} />
+            <AiOutlineClockCircle size={14} />
             <span>{new Date(task.deadline).toLocaleDateString('tr-TR')}</span>
           </div>
 
@@ -70,7 +71,7 @@ function TaskCard({ task, onDelete }) {
             onClick={() => onDelete(task.id)}
             className="p-1 hover:bg-red-500/20 hover:text-red-400 text-gray-400 transition-colors rounded"
           >
-            <IoTrash size={16} />
+            <MdDelete size={16} />
           </button>
         </div>
       </div>

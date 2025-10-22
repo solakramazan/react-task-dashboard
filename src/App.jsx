@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import { DndContext, closestCorners, DragEndEvent } from '@dnd-kit/core';
-import { IoAdd, IoSearch, IoClose } from 'react-icons/io5';
+import { useState } from 'react';
+import { DndContext, closestCorners } from '@dnd-kit/core';
+import { IoAdd, IoSearch } from 'react-icons/io5';
 import TaskColumn from './components/TaskColumn';
 import TaskForm from './components/TaskForm';
 import './App.css';
