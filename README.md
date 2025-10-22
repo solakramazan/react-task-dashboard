@@ -21,22 +21,6 @@ React ile yapmış olduğum, Trello benzeri ama daha minimalist ve şık bir gö
 - **dnd-kit** - Drag and drop
 - **react-icons** - Icons
 
-## 🚀 Kurulum
-
-```bash
-# Klonla
-git clone https://github.com/solakramazan/react-task-dashboard.git
-cd react-task-dashboard
-
-# Paketleri yükle
-npm install
-
-# Projeyi çalıştır
-npm run dev
-```
-
-Tarayıcıda `http://localhost:5173` adresine git.
-
 ## 📖 Nasıl Kullanılır?
 
 ### Görev Ekleme
@@ -96,26 +80,8 @@ react-task-dashboard/
 - Öncelik seviyesi (Düşük, Orta, Yüksek)
 - Silme butonu
 
-## 🌟 Gelecekte Eklemek İstediklerim
-
-- [ ] Local Storage'a kaydetme
-- [ ] Kategoriler/etiketler
-- [ ] Tarihçe (undo/redo)
-- [ ] Kullanıcı profilleri
-- [ ] Firebase entegrasyonu
-- [ ] Takvim görünümü
-- [ ] Reminder bildirimleri
-
 ## 👨‍💻 Yapan
 
 **Ramazan Solak**
-
-- GitHub: [@solakramazan](https://github.com/solakramazan)
-
-## 📄 Lisans
-
-MIT License
-
----
 
 ⭐ Beğendiyseniz yıldız vermeyi unutmayın!
